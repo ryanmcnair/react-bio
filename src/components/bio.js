@@ -19,8 +19,8 @@ export default class Bio extends React.Component {
               years traveling and living across the southwest US, staying in
               both Phoenix AZ and Los Angeles CA. During this period I was
               pursuing music, constantly practicing and playing with anyone who
-              would have me. I became a manager at local record store chain, Zia
-              Records in Phoenix AZ and worked in retail at Amoeba Records in
+              would have me. I became a manager at local record store chain,  Zia
+              Records, in Phoenix AZ and worked in retail at Amoeba Records in
               Los Angeles CA. In 2004, I left Los Angeles for Brooklyn NY and
               spent the next 10 years there. I found myself working in finance
               for a corporate travel company,{' '}
