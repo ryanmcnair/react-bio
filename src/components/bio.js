@@ -13,17 +13,16 @@ export default class Bio extends React.Component {
             alt='Ryan McNair'
           />
           <div className='bio-details'>
-            <h2>Bio:</h2>
             <p>
-              After growing up in the suburbs of San Diego CA, I spent many
-              years traveling and living across the southwest US, staying in
-              both Phoenix AZ and Los Angeles CA. During this period I was
-              pursuing music, constantly practicing and playing with anyone who
-              would have me. I became a manager at local record store chain,  Zia
-              Records, in Phoenix AZ and worked in retail at Amoeba Records in
-              Los Angeles CA. In 2004, I left Los Angeles for Brooklyn NY and
-              spent the next 10 years there. I found myself working in finance
-              for a corporate travel company,{' '}
+              After growing up in the suburbs of San Diego CA, I
+              spent many years traveling and living across the southwest US,
+              staying in both Phoenix AZ and Los Angeles CA. During this period
+              I was pursuing music, constantly practicing and playing with
+              anyone who would have me. I became a manager at local record store
+              chain, Zia Records, in Phoenix AZ and worked in retail at Amoeba
+              Records in Los Angeles CA. In 2004, I left Los Angeles for
+              Brooklyn NY and spent the next 10 years there. I found myself
+              working in finance for a corporate travel company,{' '}
               <a
                 target='_blank'
                 rel='noopener noreferrer'
@@ -42,6 +41,53 @@ export default class Bio extends React.Component {
             </p>
           </div>
         </div>
+        <h2 class='proficiencies'>Technologies used include:</h2>
+        <ul>
+          <p>VS Code</p>
+          <p> || </p>
+          <p>GitHub</p>
+          <p> || </p>
+          <p>HTML5</p>
+          <p> || </p>
+          <p>CSS</p>
+          <p> || </p>
+          <p>Sass</p>
+          <p> || </p>
+          <p>React</p>
+          <p> || </p>
+          <p> ES6 Javascript</p>
+          <p> || </p>
+          <p>Bootstrap</p>
+          <p> || </p>
+          <p>jQuery</p>
+          <p> || </p>
+          <p>Webpack</p>
+          <p> || </p>
+          <p>Firebase</p>
+        </ul>
+        <ul>
+          <p>Visual Studio</p>
+          <p> || </p>
+          <p>C#/.Net Core</p>
+          <p> || </p>
+          <p>T-SQL</p>
+          <p> || </p>
+          <p>CSS</p>
+          <p> || </p>
+          <p>Sass</p>
+          <p> || </p>
+          <p>React</p>
+          <p> || </p>
+          <p>Javascript</p>
+          <p> || </p>
+          <p>Bootstrap</p>
+          <p> || </p>
+          <p>jQuery</p>
+          <p> || </p>
+          <p>Webpack</p>
+          <p> || </p>
+          <p>Figma - wireframes</p>
+        </ul>
       </>
     );
   }

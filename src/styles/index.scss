@@ -7,5 +7,24 @@
 
 body {
   background-color: $favColor;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul p {
+  margin: 12px;
 }
