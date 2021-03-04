@@ -12,12 +12,23 @@
   width: 25%;
 }
 
+.nash-pic {
+  height: 25%;
+  width: 100%;
+}
+
 .bio-details {
   width: 100%;
   margin: auto 5% auto 5%;
+}
+
+.tech {
+  display: flex;
+  justify-content: center;
 }
 
 .proficiencies {
   display: flex;
   flex-direction: row;
 }
+

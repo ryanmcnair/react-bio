@@ -1,4 +1,5 @@
 import React from 'react';
+import Nash from '../assets/images/nashville-skyline (1).png';
 
 export default class Bio extends React.Component {
   state = {};
@@ -14,15 +15,15 @@ export default class Bio extends React.Component {
           />
           <div className='bio-details'>
             <p>
-              After growing up in the suburbs of San Diego CA, I
-              spent many years traveling and living across the southwest US,
-              staying in both Phoenix AZ and Los Angeles CA. During this period
-              I was pursuing music, constantly practicing and playing with
-              anyone who would have me. I became a manager at local record store
-              chain, Zia Records, in Phoenix AZ and worked in retail at Amoeba
-              Records in Los Angeles CA. In 2004, I left Los Angeles for
-              Brooklyn NY and spent the next 10 years there. I found myself
-              working in finance for a corporate travel company,{' '}
+              After growing up in the suburbs of San Diego CA, I spent many
+              years traveling and living across the southwest US, staying in
+              both Phoenix AZ and Los Angeles CA. During this period I was
+              pursuing music, constantly practicing and playing with anyone who
+              would have me. I became a manager at local record store chain, Zia
+              Records, in Phoenix AZ and worked in retail at Amoeba Records in
+              Los Angeles CA. In 2004, I left Los Angeles for Brooklyn NY and
+              spent the next 10 years there. I found myself working in finance
+              for a corporate travel company,{' '}
               <a
                 target='_blank'
                 rel='noopener noreferrer'
@@ -41,7 +42,9 @@ export default class Bio extends React.Component {
             </p>
           </div>
         </div>
-        <h2 class='proficiencies'>Technologies used include:</h2>
+        <div className='tech'>
+          <h2 className='proficiencies'>Technologies</h2>
+        </div>
         <ul>
           <p>VS Code</p>
           <p> || </p>
@@ -72,6 +75,11 @@ export default class Bio extends React.Component {
           <p> || </p>
           <p>T-SQL</p>
         </ul>
+        <img
+          className='nash-pic'
+          src={Nash}
+          alt='Nashville'
+        />
       </>
     );
   }
