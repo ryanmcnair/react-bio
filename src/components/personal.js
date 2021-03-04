@@ -7,7 +7,15 @@ export default class Bio extends React.Component {
     return (
       <>
         <div className='personal'>
-          <h1>Intersting things about me go here!</h1>
+          <iframe
+            title='awesome video'
+            width='560'
+            height='315'
+            src='https://www.youtube.com/embed/dQw4w9WgXcQ'
+            frameborder='0'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            allowfullscreen
+          ></iframe>
         </div>
       </>
     );
