@@ -71,22 +71,6 @@ export default class Bio extends React.Component {
           <p>C#/.Net Core</p>
           <p> || </p>
           <p>T-SQL</p>
-          <p> || </p>
-          <p>CSS</p>
-          <p> || </p>
-          <p>Sass</p>
-          <p> || </p>
-          <p>React</p>
-          <p> || </p>
-          <p>Javascript</p>
-          <p> || </p>
-          <p>Bootstrap</p>
-          <p> || </p>
-          <p>jQuery</p>
-          <p> || </p>
-          <p>Webpack</p>
-          <p> || </p>
-          <p>Figma - wireframes</p>
         </ul>
       </>
     );

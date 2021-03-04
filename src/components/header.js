@@ -13,7 +13,7 @@ export default class Header extends React.Component {
       <>
         <header className='header-section'>
           <div>
-          <h1>Ryan McNair - Software Developer</h1>
+          <h1>Ryan McNair Software Developer</h1>
           </div>
           <h5>
             <a href='mailto: ryan.mcnair@gmail.com'><img className='email-icon' src={EIcon} alt='email icon' /></a> ||{' '}
