@@ -7,11 +7,11 @@ import {
   Link, Route, BrowserRouter, Switch,
 } from 'react-router-dom';
 import Bio from './bio';
-import Card from './cards';
+import Portfolio from './projectCards';
+import Personal from './personal';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    background: '#b9c9c7',
     border: 'hidden',
     fontSize: 16,
     color: 'white',
@@ -40,13 +40,13 @@ export default function NavBar() {
         >
           <Tab label='Bio' component={Link} to='/' />
           <Tab label='Portfolio' component={Link} to='/portfolio' />
-          <Tab label='Personal Interests' />
+          <Tab label='Personal Interests' component={Link} to='/personal'/>
         </Tabs>
       </Paper>
       <Switch>
         <Route exact path='/' component={() => <Bio />} />
-        <Route exact path='/portfolio' component={() => <Card />} />
-        <Route path='/personal' />
+        <Route exact path='/portfolio' component={() => <Portfolio />} />
+        <Route exact path='/personal' component={() => <Personal />} />
       </Switch>
     </BrowserRouter>
   );

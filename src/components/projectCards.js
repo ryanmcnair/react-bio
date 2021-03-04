@@ -1,20 +1,31 @@
-import React from 'react';
+import React, { Component } from 'react';
+import ProjectCard from './cards';
+import getAllProjects from '../helpers/data';
 
-export default class CardContainer extends React.Component {
-  state = {};
+class Portfolio extends Component {
+  state = {
+    projects: [],
+  };
+
+  componentDidMount() {
+    this.getProjects();
+  }
+
+  getProjects = () => getAllProjects().then((response) => {
+    this.setState({ projects: response });
+  });
 
   render() {
+    const showProjects = () => this.state.projects.map((project) => (
+        <ProjectCard key={project.url} project={project} />
+    ));
+
     return (
-      <>
-        <header>
-          <h1>Ryan McNair</h1>
-          <h4>
-            <a href='./index.html#dev-projects'>Web Development</a> ||{' '}
-            <a href='./index.html#wellness'>Health & Wellness</a> ||{' '}
-            <a href='./index.html#music'>Art & Music</a>
-          </h4>
-        </header>
-      </>
+      <div className='portfolio'>
+          <div className='d-flex flex-wrap'>{showProjects()}</div>
+      </div>
     );
   }
 }
+
+export default Portfolio;
