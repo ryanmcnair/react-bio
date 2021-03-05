@@ -3,6 +3,15 @@
   min-height: 300px;
 }
 
+.project-card:hover {
+  transform: scale(.99);
+}
+
+.card-image {
+  height: 350px;
+  width: 100%;
+}
+
 .project-btn {
   background-color: #b9c9c7;
 }

@@ -27,6 +27,8 @@ class ProjectCard extends Component {
                 {project.title}
               </CardTitle>
               <CardText>{project.description}</CardText>
+              <CardText>Tech used: </CardText>
+              <CardText>{project.technologiesUsed}</CardText>
               <div className='btn-container'>
                 <Button
                   className='project-btn mr-2'
