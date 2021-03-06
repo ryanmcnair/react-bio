@@ -9,7 +9,7 @@ import {
 import Bio from './bio';
 import Portfolio from './projectCards';
 import Personal from './personal';
-import Login from './login';
+// import Login from './login';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -49,7 +49,7 @@ export default function NavBar() {
         <Route exact path='/' component={() => <Bio />} />
         <Route exact path='/portfolio' component={() => <Portfolio />} />
         <Route exact path='/personal' component={() => <Personal />} />
-        <Route exact path='/secretlogin' component={() => <Login />} />
+        {/* <Route exact path='/secretlogin' component={() => <Login />} /> */}
       </Switch>
     </BrowserRouter>
   );
