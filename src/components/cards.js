@@ -14,13 +14,6 @@ class ProjectCard extends Component {
     return (
       <>
         <Card className='project-card m-1'>
-          <CardImg
-            className='card-image'
-            top
-            width='100%'
-            src={project.screenshot}
-            alt='Card image cap'
-          />
           <CardBody className='card-body'>
             <div className='card-text'>
               <CardTitle className='card-title' tag='h5'>

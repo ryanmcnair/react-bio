@@ -37,8 +37,7 @@ export default class Bio extends React.Component {
             </p>
             <p>
               In 2020, I decided to continue my education by applying to
-              Nashville Software School. I'm currently enrolled in a full stack
-              developement cohort set to graduate in summer 2021.
+              Nashville Software School and completed the program in June 2021. I continue to learn, practice and grow as a developer daily.
             </p>
           </div>
         </div>
@@ -46,8 +45,6 @@ export default class Bio extends React.Component {
           <h2 className='proficiencies'>Technologies</h2>
         </div>
         <ul>
-          <p>VS Code</p>
-          <p> || </p>
           <p>GitHub</p>
           <p> || </p>
           <p>HTML5</p>
@@ -56,9 +53,9 @@ export default class Bio extends React.Component {
           <p> || </p>
           <p>Sass</p>
           <p> || </p>
-          <p>React</p>
+          <p>React.js</p>
           <p> || </p>
-          <p> ES6 Javascript</p>
+          <p>ES6 JavaScript</p>
           <p> || </p>
           <p>Bootstrap</p>
           <p> || </p>
@@ -69,11 +66,13 @@ export default class Bio extends React.Component {
           <p>Firebase</p>
         </ul>
         <ul>
-          <p>Visual Studio</p>
+          <p>PHP</p>
           <p> || </p>
           <p>C#/.Net Core</p>
           <p> || </p>
-          <p>T-SQL</p>
+          <p>MySQL</p>
+          <p> || </p>
+          <p>GraphQL</p>
         </ul>
         <img
           className='nash-pic'
